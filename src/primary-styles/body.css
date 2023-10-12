@@ -2,11 +2,20 @@
   background-color: var(--background-first-section);
 }
 
+
+
 .body__main {
+  margin-top: 9vh;
+  z-index: -1;
+  height: 200vh;
+}
+
+.body__main--detail{
   margin-top: 9vh;
   z-index: -1;
   height: 100vh;
 }
+
 
 .main__section {
   margin: 2% 3%;
