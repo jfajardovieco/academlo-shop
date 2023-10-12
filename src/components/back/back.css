@@ -1,0 +1,36 @@
+.main__div--back {
+  margin: 1em 0;
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+}
+
+.bx-arrow-back:before {
+  content: "\e9b4";
+  color: var(--background-card);
+}
+
+.main__a--back {
+  margin-left: 3%;
+  text-decoration: none;
+  font-weight: var(--font-weight-bold);
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.main__a--back>span {
+  margin-left: 2em;
+  font-weight: var(--font-weight-bold);
+  color: var(--background-card);
+}
+
+@media (max-width:550px) {
+
+  .main__a--back,
+  .main__a--back>span {
+    margin-left: 5px;
+  }
+
+}
